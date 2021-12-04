@@ -14,4 +14,12 @@ def get_index():
     response = Controller.get_index()
     return jsonify(data=response)
 
+@api.route('/query', methods=['GET'])
+def get_all():
+    response = Controller.get_all()
+    return jsonify(data=response)
 
+@api.route('/query/<page>', methods=['GET'])
+def get_page(page):
+    response = Controller.get_page(page)
+    return jsonify(data=response)
