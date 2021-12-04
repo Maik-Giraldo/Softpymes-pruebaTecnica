@@ -1,0 +1,18 @@
+{
+	"info": {
+		"_postman_id": "8410a336-1f93-41bf-ae6e-84c353584908",
+		"name": "SoftPymes prueba tecnica",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "consultar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
